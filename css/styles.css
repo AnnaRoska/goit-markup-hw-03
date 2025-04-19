@@ -1,0 +1,259 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+ul, ol{
+    padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+.container{
+    
+}
+.container-hdr {
+    display: flex;
+    margin-right: 156px;
+    margin-left: 156px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+}
+.nav-hdr {
+    display: flex;
+}
+
+.container-content {
+    display: flex;
+    margin-left: 76px;
+    gap: 40px;
+
+}
+
+.container-address {
+    display: flex;
+    gap: 40px;
+    margin-right: 0px;
+    align-content: end;
+}
+.container-part-two{
+   display: flex;
+   gap: 24px;
+   margin-bottom: 120px;
+    margin-top: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.dscr-part-two{
+padding-top: 8px;
+}
+.container-part-three{
+    display: flex;
+    gap: 24px;
+    margin-left:156px;
+    margin-right: 156px;
+    padding-bottom: 120px; 
+}
+.logo {
+    font-family:Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px ;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.name-logo-end{
+    color: #f4f4fd;
+}
+.name-logo-start{
+    color: #2e2f42;
+}
+body{
+    font-family:Roboto, sans-serif;
+    color:#434455 ;
+    background-color: #FFFFFF;
+}
+
+.body-medium {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.body-medium:hover{
+    color: #404BBF;
+}
+.body-medium:focus{
+    color: #404bbf;
+}
+
+.body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.body:hover{
+    color: #404BBF;
+}
+
+.body-address{
+    font-style: normal;
+}
+.body-contacts{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.body-contacts:hover{
+    color: #404bbf;
+}
+.body-contacts:focus{
+    color: #404bbf;
+}
+.part-one{
+    background-color: #2E2F42;
+    height: 600px;
+}
+.part-two{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-one {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.07;
+    padding-top: 188px;
+    
+}
+
+.btn {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 48px;
+    margin-bottom: 188px;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #404BBF;
+}
+.btn:focus{
+    background-color: #404BBF;
+}
+
+.header-two {
+    font-family:Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    line-height: 1.11;
+    text-transform: capitalize;
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+
+.header-three {
+    font-family:Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.part-three{
+    background-color: #F4F4FD;
+
+}
+.container-part-four{
+    display: flex;
+    gap:24px;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.part-four{
+    width:1128px ;
+    margin-left: 156px;
+    margin-right: 156px; 
+ }
+ .part-four-first{
+    margin-bottom: 48px;
+ }
+.list-one{
+    background-color: #FFFFFF;
+}
+.small-text {
+    font-family:Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    padding-top: 16px;
+}
+
+
+.link-text {
+    font-family:Roboto, sans-serif;
+    font-weight: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: Underline ;
+}
+
+.part-end{
+    background-color: #2E2F42;
+   
+}
+
+
+.text-p{
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.container-part-end{
+    padding-bottom: 100px;
+    padding-top:100px ;
+    margin-left: 156px;
+    width: 264px;
+}
+.logo-end{
+    margin-top:100px ;
+}
