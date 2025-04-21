@@ -6,8 +6,16 @@ ul, ol{
   margin: 0;
   list-style: none;
 }
+img{
+    display: block;
+}
+.hdr{
+    border-bottom: 1px solid #e7e9fc;
+}
 .container{
-    
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .container-hdr {
     display: flex;
@@ -19,6 +27,7 @@ ul, ol{
 }
 .nav-hdr {
     display: flex;
+    align-items: center; 
 }
 
 .container-content {
@@ -60,6 +69,7 @@ padding-top: 8px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .name-logo-end{
@@ -81,6 +91,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 .body-medium:hover{
     color: #404BBF;
