@@ -48,7 +48,7 @@ img{
 }
 .part-one{
     background-color: #2E2F42;
-/*     padding: 188px 0; */
+    padding: 188px 0;
 }
 
 .header-one {
@@ -61,7 +61,7 @@ img{
     color: #FFFFFF;
     line-height: 1.07;
  /*    padding-top: 188px; */
-    padding: 188px 0;
+   /*  padding: 188px 0; */
     max-width: 496px;
     margin-left:auto ;
     margin-right: auto;
@@ -153,6 +153,17 @@ padding-top: 8px;
     color: #2E2F42;
     line-height: 1.2;
     margin-bottom: 8px;
+    text-align: center;
+}
+.text-p{
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center; 
+}
+.names{
+    padding: 32px 0;
 }
 .container-part-three{
     display: flex;
@@ -237,21 +248,30 @@ body{
 }
 .container-part-four{
     display: flex;
-    gap:24px;
+    /* gap:24px; */
+    column-gap: 24px;
     flex-wrap: wrap;
-  justify-content: space-between;
-  
+    /* justify-content: space-between; */
+    row-gap: 48px; 
 }
-.part-four{
-   /*  width:1128px ; */
+/* .part-four{
+    width:1128px ;
     margin-left: 156px;
     margin-right: 156px; 
+ } */
+
+ .part-four-list{
+    width: calc((100% - 48px) / 3);
  }
- .part-four-first{
-    margin-bottom: 48px;
+ .our-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
  }
 .list-one{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .small-text {
     font-family:Roboto, sans-serif;
@@ -275,17 +295,10 @@ body{
 
 .part-end{
     background-color: #2E2F42;
-   
+    padding: 100px 0;
 }
 
 
-.text-p{
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-
-}
 
 .container-part-end{
     padding-bottom: 100px;
@@ -294,5 +307,7 @@ body{
     width: 264px;
 }
 .logo-end{
-    margin-top:100px ;
+   /*  margin-top:100px; */
+    display: inline-block;
+    margin-bottom: 16px; 
 }
